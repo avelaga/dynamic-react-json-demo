@@ -1,5 +1,13 @@
 # How to dynamically render React pages and content from JSON
 
+### To run:
+
+Clone this repo and then run the following commands in the terminal:
+```
+npm i
+npm start
+```
+
 ![](https://miro.medium.com/max/4800/1*3scodXYddKGGSm81-kmBag.png)
 
 When I create portfolio websites for myself and friends, I always want to avoid hardcoding the projects and information for each and instead use a more dynamic way of managing the data, but haven’t developed a way until recently. This is the system I’ve developed to allow the dynamic instantiation of web pages and their content from a single JSON data structure, making it easier and cleaner to edit the information later on.
