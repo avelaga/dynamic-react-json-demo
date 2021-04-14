@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+/* for all pages */
+.content {
+  width: 70vw;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation-name: appear;
+  animation-duration: 1s;
+}

@@ -1,0 +1,17 @@
+.page-title {
+  width:100%;
+  font-size: 35px;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.portfolio-img {
+  width: 100%;
+  padding: 5px;
+}
+
+.project-img {
+  width: 100%;
+  padding: 5px;
+}
