@@ -20,7 +20,7 @@ function App() {
     <Router>
       <Switch>
       <Route exact path='/' exact component={Portfolio} />
-        <Route exact path='/projects/:id' exact component={Project} />
+        <Route exact path='/:id' exact component={Project} />
         <Route component={ErrorPage} />
       </Switch>
     </Router>

@@ -9,7 +9,7 @@ function Portfolio() {
         <div className="page-title">PROJECTS</div>
         <Columned columns={numColumns}>
         {projects.map((value, index) => {
-        return <a key={index} href={"projects/"+value["url"]}><img  className="portfolio-img" src={value["cover"]} /></a>
+        return <a key={index} href={"/"+value["url"]}><img  className="portfolio-img" src={value["cover"]} /></a>
         })}
       </Columned>
       </div>

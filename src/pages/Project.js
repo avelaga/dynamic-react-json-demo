@@ -21,7 +21,7 @@ function Project() {
   return (
     <div className="content">
     <div className="page-title">{id}</div>
-    {text}
+    <div className="project-text">{text}</div>
     {imgs.map((value, index) => {
       return <img key={index} className="project-img" src={value} />
     })}
